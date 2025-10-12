@@ -8,7 +8,14 @@ html.white-theme {
     background-color: rgb(200, 200, 200);
 }
 
-.jeuParent {
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    min-height: 90vh;
+}
+
+.gameParent {
     position: absolute;
     left: 50%;
     transform: translate(-50%);
@@ -35,7 +42,9 @@ html.white-theme {
 }
 
 .intimidatingButton{
+    position: absolute;
     display:inline-block;
+    left:10px;
     text-align: center;
     font-size: 20px;
     padding: 10px 20px;
