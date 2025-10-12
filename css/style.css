@@ -54,3 +54,12 @@ html.white-theme {
     font-size: 100px;
     border-radius: 30px;
 }
+
+#themeButton {
+    position: absolute;
+    left: 96%;
+    height:33px;
+    background-color: grey;
+    border-radius: 200px;
+    cursor: pointer;
+}
